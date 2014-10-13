@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="menuPaddingRight" format="dimension" />
+
+    <declare-styleable name="slidemenu">
+        <attr name="menuPaddingRight" />
+    </declare-styleable>
+
+</resources>
