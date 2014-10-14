@@ -19,13 +19,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:src="@drawable/qq" >
+            android:background="@drawable/qq" >
 
             <ListView
-                
                 android:id="@+id/listview_main"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:id="@+id/listview_menu2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
             </ListView>
         </LinearLayout>
     </LinearLayout>
